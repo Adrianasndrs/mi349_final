@@ -1,0 +1,155 @@
+html{
+    background-color: #c2c2c2;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    color: lightgray;
+    border-top: 5pc solid #242424;
+    border-radius: 15px;
+    background-color: #242424;
+    text-align: center;
+}
+
+h1{
+    font-size: 5em;
+    margin: 0;
+
+}
+
+h2{
+    font-size: 32px;
+    margin: 2;
+
+}
+
+.menu{
+    width: 100%;
+    text-align: center;
+}
+
+.menu li{
+    display: inline;
+    font-size: 30px;
+    font-style: thin;
+    color: lightgrey;
+    margin: 3em;
+}
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.work01{
+    flex: 25%;
+    max-width: 100%;
+    padding: 0 4px;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    border-left: 1px dotted #ccc;
+    border-right: 1px dotted #ccc;
+}
+
+.work02{
+    flex: 25%;
+    max-width: 100%;
+    padding: 0 4px;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    border-left: 1px dotted #ccc;
+    border-right: 1px dotted #ccc;
+}
+
+.work03{
+    flex: 25%;
+    max-width: 100%;
+    padding: 0 4px;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    border-left: 1px dotted #ccc;
+    border-right: 1px dotted #ccc;
+}
+
+.work04{
+    flex: 25%;
+    max-width: 100%;
+    padding: 0 4px;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    border-left: 1px dotted #ccc;
+    border-right: 1px dotted #ccc;
+}
+
+.work01 img{
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.work01 img:hover{
+    transform: scale(1.5);
+    border-radius: 15px;
+    box-shadow: 0 3px 10px lightslategray;
+    align-self: center;
+}
+
+.work02 img{
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.work02 img:hover{
+    transform: scale(1.5);
+    border-radius: 15px;
+    box-shadow: 0 3px 10px lightslategray;
+    align-self: center;
+}
+
+.work03 img{
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.work03 img:hover{
+    transform: scale(1.5);
+    border-radius: 15px;
+    box-shadow: 0 3px 10px lightslategray;
+    align-self: center;
+}
+
+.work04 img{
+    margin-top: 10px;
+    vertical-align: middle;
+    height: 500px;
+    width: 300px;
+}
+
+.work04 img:hover{
+    transform: scale(1.5);
+    border-radius: 15px;
+    box-shadow: 0 3px 10px lightslategray;
+    align-self: center;
+}
+@media screen and (max-width: 800px) {
+    .work01{
+        flex: 50%;
+        max-width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .work01{
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+}
+
+
