@@ -42,10 +42,10 @@ h2{
 li{
     display: block;
     text-align: left;
-    border-top: 1px dotted #ccc;
-    border-bottom: 1px dotted #ccc;
-    border-left: 1px dotted #ccc;
-    border-right: 1px dotted #ccc;
+    border-top: 1px #ccc;
+    border-bottom: 1px  #ccc;
+    border-left: 1px  #ccc;
+    border-right: 1px  #ccc;
 }
 
 .portfolio{
@@ -174,7 +174,29 @@ img{
 
 .icon img{
     width: 50px;
-    color: #c2c2c2;
+}
+
+.icon img:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+.artstation img{
+    width: 100px;
+}
+
+.artstation img:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+.blog img{
+    width: 800px;
+}
+
+.blog img:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
 }
 
 @media screen and (max-width: 800px) {
