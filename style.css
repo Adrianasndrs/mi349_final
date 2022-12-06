@@ -32,10 +32,20 @@ h2{
 
 .menu li{
     display: inline;
+    text-align: left;
     font-size: 30px;
     font-style: thin;
     color: lightgrey;
     margin: 3em;
+}
+
+li{
+    display: block;
+    text-align: left;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    border-left: 1px dotted #ccc;
+    border-right: 1px dotted #ccc;
 }
 
 .portfolio{
@@ -78,6 +88,13 @@ h2{
     flex: 25%;
     max-width: 100%;
     padding: 0 4px;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    border-left: 1px dotted #ccc;
+    border-right: 1px dotted #ccc;
+}
+
+.work05{
     border-top: 1px dotted #ccc;
     border-bottom: 1px dotted #ccc;
     border-left: 1px dotted #ccc;
@@ -136,6 +153,30 @@ h2{
     box-shadow: 0 3px 10px lightslategray;
     align-self: center;
 }
+
+.work05 img{
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.work05 img:hover{
+    transform: scale(1.5);
+    border-radius: 15px;
+    box-shadow: 0 3px 10px lightslategray;
+    align-self: center;
+}
+
+img{
+    border-radius: 15px;
+    width: 300px;
+}
+
+.icon img{
+    width: 50px;
+    color: #c2c2c2;
+}
+
 @media screen and (max-width: 800px) {
     .work01{
         flex: 50%;
