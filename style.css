@@ -1,5 +1,5 @@
 html{
-    background-color: #c2c2c2;
+    background-color: rgb(39, 0, 56);
 }
 
 body{
@@ -16,13 +16,12 @@ body{
 h1{
     font-size: 5em;
     margin: 0;
-
+    text-shadow: 1px 1px 2px black, 0 0 1em darkslateblue, 0 0 0.2em darkslateblue;
 }
 
 h2{
     font-size: 32px;
     margin: 2;
-
 }
 
 .menu{
@@ -196,7 +195,7 @@ img{
 }
 
 .blog img{
-    width: 800px;
+    width: 400px;
 }
 
 .blog img:hover{
@@ -247,7 +246,7 @@ img{
         flex: 50%;
         max-width: 50%;
     }
-    
+
 }
 
 @media screen and (max-width: 800px) {
