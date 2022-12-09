@@ -214,6 +214,34 @@ img{
     border-bottom: #c2c2c2 solid;
     border-top: #c2c2c2 solid;
 }
+
+.pixelplanters img{
+    width: 100px;
+}
+
+.pixelplanters img:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+.iceplanet img{
+    width: 200px;
+}
+
+.iceplanet img:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+.fruitbasket img{
+    width: 200px;
+}
+
+.fruitbasket img:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
 @media screen and (max-width: 800px) {
     .work01{
         flex: 50%;
