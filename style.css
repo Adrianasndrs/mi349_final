@@ -58,51 +58,52 @@ li{
     flex: 25%;
     max-width: 100%;
     padding: 0 4px;
-    border-top: 1px dotted #ccc;
-    border-bottom: 1px dotted #ccc;
-    border-left: 1px dotted #ccc;
-    border-right: 1px dotted #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 .work02{
     flex: 25%;
     max-width: 100%;
     padding: 0 4px;
-    border-top: 1px dotted #ccc;
-    border-bottom: 1px dotted #ccc;
-    border-left: 1px dotted #ccc;
-    border-right: 1px dotted #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 .work03{
     flex: 25%;
     max-width: 100%;
     padding: 0 4px;
-    border-top: 1px dotted #ccc;
-    border-bottom: 1px dotted #ccc;
-    border-left: 1px dotted #ccc;
-    border-right: 1px dotted #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 .work04{
     flex: 25%;
     max-width: 100%;
     padding: 0 4px;
-    border-top: 1px dotted #ccc;
-    border-bottom: 1px dotted #ccc;
-    border-left: 1px dotted #ccc;
-    border-right: 1px dotted #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 .work05{
-    border-top: 1px dotted #ccc;
-    border-bottom: 1px dotted #ccc;
-    border-left: 1px dotted #ccc;
-    border-right: 1px dotted #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 .work01 img{
     margin-top: 10px;
+    margin-bottom: 10px;
     vertical-align: middle;
     width: 100%;
 }
@@ -116,6 +117,7 @@ li{
 
 .work02 img{
     margin-top: 10px;
+    margin-bottom: 10px;
     vertical-align: middle;
     width: 100%;
 }
@@ -129,6 +131,7 @@ li{
 
 .work03 img{
     margin-top: 10px;
+    margin-bottom: 10px;
     vertical-align: middle;
     width: 100%;
 }
@@ -142,6 +145,7 @@ li{
 
 .work04 img{
     margin-top: 10px;
+    margin-bottom: 10px;
     vertical-align: middle;
     height: 500px;
     width: 300px;
@@ -156,6 +160,7 @@ li{
 
 .work05 img{
     margin-top: 10px;
+    margin-bottom: 10px;
     vertical-align: middle;
     width: 50%;
 }
@@ -199,6 +204,16 @@ img{
     transition: opacity ease-in-out 0.2s;
 }
 
+.adriana img{
+    box-shadow: darkorchid 0 5px 10px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.bio{
+    border-bottom: #c2c2c2 solid;
+    border-top: #c2c2c2 solid;
+}
 @media screen and (max-width: 800px) {
     .work01{
         flex: 50%;
